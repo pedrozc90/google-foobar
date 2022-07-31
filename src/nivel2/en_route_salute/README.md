@@ -1,5 +1,10 @@
 # En Route Salute
----------------
+
+## Problem
+
+```text
+En Route Salute
+===============
 
 Commander Lambda loves efficiency and hates anything that wastes time. The Commander is a busy lamb, after all! Henchmen who identify sources of inefficiency and come up with ways to remove them are generously rewarded. You've spotted one such source, and you think solving it will help you build the reputation you need to get promoted.
 
@@ -12,15 +17,14 @@ Each hallway string will contain three different types of characters: '>', an em
 
 Write a function solution(s) which takes a string representing employees walking along a hallway and returns the number of times the employees will salute. s will contain at least 1 and at most 100 characters, each one of -, >, or <.
 
-## Languages
-----------
+Languages
+=========
 
 To provide a Python solution, edit solution.py
 To provide a Java solution, edit Solution.java
 
-## Test cases
-----------
-
+Test cases
+==========
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
@@ -45,3 +49,4 @@ Input:
 Solution.solution(">----<")
 Output:
     2
+```
